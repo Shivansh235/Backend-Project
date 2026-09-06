@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A backend Project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
@@ -12,5 +13,14 @@
     "Nodejs"
   ],
   "author": "Shivansh Kasaudhan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "3.9.6"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.5"
+  }
 }
